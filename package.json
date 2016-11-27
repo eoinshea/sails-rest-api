@@ -20,5 +20,9 @@
     "url": "git://github.com/eoin/hotelsapi.git"
   },
   "author": "eoin",
-  "license": ""
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eoin/hotelsapi/issues"
+  },
+  "homepage": "https://github.com/eoin/hotelsapi#readme"
 }

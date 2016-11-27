@@ -12,7 +12,7 @@ module.exports = {
           address: 'string',
           star_rating: 'number',
           accomadation_type: 'string'
-          }
+     }
 
 
   };
