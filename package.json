@@ -5,6 +5,8 @@
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
+    "grunt": "1.0.1",
+    "grunt-cli": "1.2.0",
     "include-all": "^1.0.0",
     "rc": "1.0.1",
     "sails": "~0.12.11",
@@ -24,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/eoin/hotelsapi/issues"
   },
-  "homepage": "https://github.com/eoin/hotelsapi#readme"
+  "homepage": "https://github.com/eoin/hotelsapi#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
 }
