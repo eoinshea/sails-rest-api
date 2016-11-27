@@ -82,7 +82,9 @@ module.exports.connections = {
     port: 5432,
     user: 'hoteladmin', // optional
     password: 'hotelz', // optional
-    database: 'hotels_db'         //optional
+    database: 'hotels_db'  ,       //optional
+      poolSize: 10,
+      ssl: false
   }
 
 
