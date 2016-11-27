@@ -89,7 +89,16 @@ module.exports.connections = {
 
 
 //        CREATE TABLE hotels(name STRING, location STRING, ^Z
-
+    herokuePostgresqlServer :  {
+        adapter: 'postgresql',
+        host: 'ec2-54-235-221-102.compute-1.amazonaws.com',
+        port: 5432,
+        user: 'ddpqzsoxmxhblr', // optional
+        password: 'hotelz', // optional
+        database: 'd170u8v4bl4j0s'  ,       //optional
+        poolSize: 10,
+        ssl: false
+}
 
 /***************************************************************************
  *                                                                          *
