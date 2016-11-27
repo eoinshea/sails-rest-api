@@ -57,10 +57,10 @@ module.exports.session = {
 
   host: 'localhost',
   port: 6379,
-  ttl: 111
+  ttl: 111,
   db: 0,
   pass: 'redispass',
-  prefix: 'sess:',
+  prefix: 'sess:'
 
 
   /***************************************************************************
