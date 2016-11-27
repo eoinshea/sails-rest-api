@@ -1,40 +1,17 @@
 {
   "name": "hotelsapi",
+  "version": "1.0.0",
   "description": "The best project ever.",
-  "version": "0.1.0",
-  "homepage": "https://github.com/root/hotelsapi",
-  "author": {
-    "email": "Eoin O"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/root/hotelsapi.git"
-  },
-  "bugs": {
-    "url": "https://github.com/root/hotelsapi/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/root/hotelsapi/blob/master/LICENSE-MIT"
-    }
-  ],
-  "main": "lib/hotelsapi",
-  "engines": {
-    "node": ">= 0.8.0"
+  "main": "app.js",
+  "directories": {
+    "test": "test"
   },
   "scripts": {
-    "test": "grunt nodeunit"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "grunt-contrib-jshint": "~0.6.4",
-    "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt": "~0.4.5"
-  },
-  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "sails-db-migrate": "^1.4.0",
     "sails-postgresql": "^0.11.4"
   }
 }
