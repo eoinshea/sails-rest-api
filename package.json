@@ -1,5 +1,5 @@
 {
-  "name": "MyApi",
+  "name": "hotelsapi",
   "private": true,
   "version": "0.0.0",
   "description": "a Sails application",
@@ -17,7 +17,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/eoin/MyApi.git"
+    "url": "git://github.com/eoin/hotelsapi.git"
   },
   "author": "eoin",
   "license": ""
