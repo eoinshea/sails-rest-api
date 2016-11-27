@@ -79,7 +79,7 @@ module.exports.connections = {
   somePostgresqlServer: {
     adapter: 'sails-postgresql',
     host: 'localhost',
-    //port: 5432,
+    port: 5432,
     user: 'hoteladmin', // optional
     password: 'hotelz', // optional
     database: 'hotels_db'         //optional
