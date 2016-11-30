@@ -8,10 +8,8 @@
 module.exports = {
 
      attributes: {
-          name: 'string',
-          address: 'string',
-          star_rating: 'number',
-          accomadation_type: 'string'
+          author: 'string',
+          content: 'string'
      }
 
 
